@@ -12,7 +12,10 @@ def add():
 
     newdf = pd.DataFrame(data, columns=columns)
     ab_import.import_data(newdf)
+    print('___________________________')
     print("Добавили запись:")
     print(newdf.to_string(index=False))
+    print('___________________________')
+    print()
     return
     

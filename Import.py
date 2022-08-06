@@ -34,7 +34,7 @@ def import_file(filename):
 def importf():
     filename = ""
     while len(filename) == 0:
-        filename = input("Введите имя CSV Файла для импорта:")
+        filename = input("Введите имя CSV Файла для импорта(./Files/fio_import.csv):")
         if not os.path.exists(filename):
             print(f"Файл {filename} не существует!")
             filename = ""

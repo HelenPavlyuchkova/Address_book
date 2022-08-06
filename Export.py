@@ -52,7 +52,7 @@ def export_data():
     while mode not in supported_export:
         mode = input("Введите режим экспорта (" + ", ".join(supported_export) + "):")
 
-    filename = input("Введите имя файла для экспорта:")
+    filename = input("Введите имя файла для экспорта (./Files/fio_export):")
     export_file(filename, mode)
     print(f"Данные были экспортированы в {filename}")
     return
