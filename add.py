@@ -15,3 +15,4 @@ def add():
     print("Добавили запись:")
     print(newdf.to_string(index=False))
     return
+    

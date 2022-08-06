@@ -54,5 +54,5 @@ def export_data():
 
     filename = input("Введите имя файла для экспорта:")
     export_file(filename, mode)
-    print(f"Данные были экспортирваны в {filename}")
+    print(f"Данные были экспортированы в {filename}")
     return
